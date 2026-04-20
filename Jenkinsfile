@@ -20,5 +20,16 @@ pipeline {
                     '''
             }
         }
+
+        stage('Test'){
+            steps{
+                sh '''
+                #Testing if index.html fiel was created in the build
+                    test -f build/index.html 
+
+
+                '''
+            }
+        }
     }
 }
