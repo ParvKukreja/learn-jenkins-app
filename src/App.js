@@ -16,7 +16,8 @@ function App() {
         </a>
       </header>
       <p>
-          Application version: 1
+          Application version: 2
+          Deployed Successfully! I am Infra now
       </p>
     </div>
   );
